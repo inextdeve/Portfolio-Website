@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/Normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./Libraries/font/flaticon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    Farroud
+                </div>
+                <nav>
+                    <a href="#" class="active">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="menu">
+                    <button><i class="flaticon-menu"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <ul class="social">
+                <li><a href="https://facebook.com/yassinefarroud" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/farroudofficial" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/farroud_official" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/Farroud" target="_blank"><i class="fab fa-github" ></i></a></li>
+            </ul>
+            <div class="desc">
+                <div class="quote">
+                    <h4>Hello, I'm</h4>
+                    <h2>Yassine<br><span class="farroud">Farroud</span></h2>
+                    <p>I'm a <span class="normal" title="">!normal</span> front end developer, i have many skills<br>Can i create website by different ways.<br>
+                    <span class="q">Sensible to FrontEnd</span></p>
+                </div>
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="Images/Profile.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <h2 id='portfolio'>My Personal Projects</h2>
+            <div class="port">
+                <div class="proj">
+                    <div class="project active">
+                        <div class="content">
+                            <div class="thumbnail kist-blog"></div>
+                        </div>
+                        <div class="title">
+                            Kist Theme For Blog
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <div class="content">
+                            <h2>Kist Theme</h2>
+                            <p>Kist Theme is an awesome blog theme that give the comforts to the reader by it's simpilicty of his UI and UX</p>
+                            <h2>Features</h2>
+                            <ul>
+                                <li>Full Responsive</li>
+                                <li>Less Data Charge</li>
+                                <li>Fast Loading Async</li>
+                            </ul>
+                            <h2>How Loading Articles Work</h2>
+                            <p>
+                                <strong>First Scenario :</strong> Check if the article content is exist in the local storage if exist show it else forward to the next Scenario.<br> <strong>Second Scenario :</strong> if the article doesn't exist in the local storage, Load it using AJAX and when loading is complete store it in the local storage after that show it.
+                            </p>
+                        </div>
+                        <div class="magic-text">
+                            <p><span class="left-m">Hover</span><span class="middle-m">To See</span><span class="right-m">The Magic</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj">
+                    <div class="project active">
+                        <div class="content">
+                            <div class="thumbnail photographer"></div>
+                        </div>
+                        <div class="title">
+                            Photographer Portfolio
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <div class="content">
+                            <h2>Photographer Portfolio</h2>
+                            <p>Photographer Portfolio is a simple and beautiful portfolio website for photographer</p>
+                            <h2>Features</h2>
+                            <ul>
+                                <li>Full Responsive</li>
+                                <li>Less Data Charge</li>
+                                <li>Fast Loading Async</li>
+                            </ul>
+                        </div>
+                        <div class="magic-text">
+                            <p><span class="left-m">Hover </span><span class="middle-m">On </span><span class="right-m">Me</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2 id="contact">Contact Us</h2>
+            <div class="contact-info">
+                <div class="email" data-type="yassinefarroud@protonmail.com">
+                    <a>Email<span>Email</span></a>
+                </div>
+                <div class="whatsapp" data-type="+212 6-53-52-92-66">
+                    <a>Business Whatsapp<span>Business Whatsapp</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
